@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ff92a144d1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Data extractor</title>
+</head>
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light " id="nav-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-bold" href="#">Code<span id="craft">Craft</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About us</a>
+            </li>
+          </ul>
+          
+        </div>
+        
+      </div>
+    </nav>
+    <div class="data row">
+      <div class="col-md-6 col-12 pt-5">
+        <h1 id="title-el">Data Extractor</h1>
+        <p id="p-el" class="mt-4">This web page will help to extract data like usernames and emails.</p>
+        <input type="text" placeholder="Enter data" id="data-input">
+        <p id="alert-text">*Enter a valid data*</p>
+        <button id="data-btn">Extract data type</button>
+        <p id="data-display"></p>
+      </div>
+      <div class="col-md-6 col-12 mt-md-0 mt-5">
+        <img id="img-bg" src="img/data-white.png" class="img-fluid">
+      </div>
+      
+    </div>
+
+  </div>
+  
+    <div class="change-bg" id="change-bg">
+    <i id="lune-icon" title="dark background" class="fa-solid fa-moon"></i>
+    <i id="sun-icon" title="light background" class="fa-solid fa-sun"></i>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
