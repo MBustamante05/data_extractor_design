@@ -2,11 +2,11 @@
 ![alt text](image.png)
 ![alt text](image-1.png)
 
-## Descripción
+## Description
 This is actually a really old but interesting project I wanted to bring to live.
 
-## Tecnologías Utilizadas
+## Technologies
 
-- **HTML5**: Estructura de la página.
-- **CSS3**: Estilo y diseño visual.
-- **JavaScript**: Lógica de detección de datos usando expresiones regulares (RegEx).
+- **HTML5**: Page structure.
+- **CSS3**: Design and style.
+- **JavaScript**: Data detection logic using regular expressions (RegEx).
